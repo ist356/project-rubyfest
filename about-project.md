@@ -13,7 +13,7 @@ Make sure to install requirements.txt before running code
 
 The three files with functions are cache_saves.py, get_site.py, and playwright_get_site.py. I would suggest running those first. 
 
-Next, you should run get_sites.py, create_sites_df.py, data_manipulation.py, and ml_attempts.py (ml_attempts.py is not required for the finished product) in that order.
+Next, you should run get_sites.py, create_sites_df.py, data_manipulation.py, and ml_attempts.py (ml_attempts.py is not required for the finished product) in that order. All three of these are time consuming so you can use the data from the cache and skip these steps if you would like.
 
 Finally, run st_analysis.py with streamlit to see the finished product
 

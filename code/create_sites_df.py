@@ -12,7 +12,7 @@ with sync_playwright() as playwright:
     print('Length of fox urls:', len(fox_urls))
     for url in fox_urls:
         fox_articles.append(playwright_get_site.get_fox_site(playwright, url))
-        print(url)
+        #print(url)
         #print(playwright_get_site.get_fox_site(playwright, url)[0:10])
         #print('\n\n')
 
